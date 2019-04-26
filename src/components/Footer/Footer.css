@@ -1,0 +1,31 @@
+.Footer {
+    height: 112px;
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Footer__wrap {
+    flex: .55;
+    min-width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Footer__tblock {
+    min-height: 84px;
+    flex: .3;
+    margin-right: 30px;
+}
+
+.Footer__ttext {
+    font-size: 40px;
+}
+
+.Footer__contact {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #0A435A;
+    margin-right: 30px;
+}

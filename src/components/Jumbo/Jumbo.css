@@ -1,0 +1,51 @@
+.Jumbo {
+    padding: 0 10px;
+    /* height: 175px; */
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+}
+/* .Jumbo__head {
+    width: 100%;
+    background: center url('~assets/jumbo.png') no-repeat;
+    background-size: contain;
+    min-height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.Jumbo__title {
+    margin: 0;
+    text-align: center;
+    color: #247BA0;
+    font-weight: 400;
+    font-size: 44px;
+    font-family: 'PT Mono', monospace;
+} */
+.Jumbo__sub {
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #0A435A;
+    font-size: 15px;
+}
+
+@media (min-width: 800px) {
+    .Jumbo {
+        padding-top: 300px;
+    }
+    /* .Jumbo__head {
+        min-height: 240px;
+    } */
+    .Jumbo__sub {
+        font-size: 20px;
+        margin-top: 40px;
+    }
+}
+
+/* @media (min-width: 1200px) {
+    .Jumbo__head {
+        min-height: 300px;
+    }
+} */

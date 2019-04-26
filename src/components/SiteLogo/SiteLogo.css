@@ -1,0 +1,10 @@
+.SiteLogo {
+    display: none;
+}
+
+@media (min-width: 800px) {
+    .SiteLogo {
+        display: block;
+        margin-left: 66px;
+    }
+}

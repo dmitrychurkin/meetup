@@ -1,0 +1,29 @@
+.TitleBlock {
+    width: 100%;
+    background: center url('~assets/jumbo.png') no-repeat;
+    background-size: contain;
+    min-height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.TitleBlock__title {
+    margin: 0;
+    text-align: center;
+    color: #247BA0;
+    font-weight: 400;
+    font-size: 44px;
+    font-family: 'PT Mono', monospace;
+}
+
+@media (min-width: 800px) {
+    .TitleBlock {
+        min-height: 240px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .TitleBlock {
+        min-height: 300px;
+    }
+}

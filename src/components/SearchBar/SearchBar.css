@@ -1,0 +1,47 @@
+.SearchBar {
+    margin: auto;
+    display: none;
+    position: relative;
+    margin-top: 20px;
+}
+
+.SearchBar__btn {
+    display: block;
+    position: absolute;
+    right: 8px;
+    top:0;
+    background: url('~assets/search.png') no-repeat;
+    background-size: cover;
+    width: 34px;
+    height: 34px;
+    outline: none;
+    border: none;
+}
+.SearchBar__ipt {
+    width: 500px;
+    height: 30px;
+    border: 3px solid #247BA0;
+    font-family: 'PT Mono', monospace;
+    color: #247BA0;
+    font-size: 16px;
+}
+
+@media (min-width: 800px) {
+    .SearchBar {
+        display: block;
+    }
+}
+
+@media (min-width: 1200px) {
+    .SearchBar__btn {
+        width: 52px;
+        height: 52px;
+        right: 10px;
+    }
+
+    .SearchBar__ipt {
+        width: 700px;
+        height: 50px;
+        font-size: 22px;
+    }
+}
