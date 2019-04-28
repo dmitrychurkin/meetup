@@ -1,0 +1,12 @@
+.EventNotFound {
+  display: flex;
+  height: calc(100vh - 284px);
+}
+
+.EventNotFound__mess {
+  margin: auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  color: #0A435A;
+}

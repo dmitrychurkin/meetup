@@ -6,8 +6,7 @@ const SearchBar = () => (
         <input
             className='SearchBar__ipt'
             name='search'
-            value='123 Street Name Ave, San Jose, 95129'
-            onChange={() => null}
+            placeholder='123 Street Name Ave, San Jose, 95129'
         />
         <button type='button' className='SearchBar__btn' />
     </div>

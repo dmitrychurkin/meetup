@@ -1,0 +1,15 @@
+.Event {
+  margin-bottom: 60px;
+}
+
+.Event__title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  color: #0A435A;
+}
+
+.Event__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

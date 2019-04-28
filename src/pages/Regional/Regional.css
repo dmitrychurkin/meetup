@@ -1,15 +1,18 @@
-.RegionalPage {
+.Regional {
     background: #e6ecee;
     min-height: calc(100vh - 284px);
+    display: block;
+    padding: 0;
+    min-width: 1331px;
 }
 
-.RegionalPage__nav {
+.Regional__nav {
     background: #fff;
     position: static;
     height: 112px;
 }
 
-.RegionalPage__content {
+.Regional__content {
     min-height: calc(100vh - 284px);
     background: #e6ecee;
     padding: 40px 0;

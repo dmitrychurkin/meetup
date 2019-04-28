@@ -17,6 +17,7 @@
     min-height: 84px;
     flex: .3;
     margin-right: 30px;
+    transform: translateX(-20%);
 }
 
 .Footer__ttext {

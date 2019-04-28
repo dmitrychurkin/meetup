@@ -1,0 +1,31 @@
+.Content {
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.Content__container {
+    border: 1px solid #0A435A;
+}
+
+.Content__head {
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 100%;
+    height: 245px;
+}
+
+.Content__head_title {
+    color: #fff;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.Content__wrap {
+    padding: 30px;
+    background-color: #fff;
+}

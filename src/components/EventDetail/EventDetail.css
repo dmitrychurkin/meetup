@@ -1,0 +1,78 @@
+.EventDetail {
+  text-align: center;
+  color: #0A435A;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.EventDetail__name {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.EventDetail__date {
+  font-weight: 300;
+  font-size: 28px;
+}
+
+
+.EventDetail__location::before {
+  content: '';
+  background: #FFABEF url('~assets/tag.svg') no-repeat;
+  background-position: center;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.EventDetail__location {
+  font-weight: 100;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.EventDetail__intro {
+  margin-top: 40px;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.EventDetail__headings {
+  margin-top: 50px;
+}
+
+.EventDetail__headings_title {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.EventDetail__headings_para {
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.EventDetail__text {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.EventDetail__link {
+  display: block;
+  margin-top: 10px;
+  color: #358ED7;
+  text-decoration: none;
+}
+
+.EventDetail__btn {
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #358ED7;
+  width: 150px;
+  height: 50px;
+  border-radius: 3px;
+}

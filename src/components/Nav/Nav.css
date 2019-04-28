@@ -28,10 +28,6 @@
     font-weight: bolder;
 }
 
-.Nav__link:last-child {
-    margin-right: 0;
-}
-
 @media (min-width: 800px) {
     .Nav {
         position: absolute;
@@ -44,6 +40,10 @@
         flex: .7;
         flex-direction: row-reverse;
         margin-right: 66px;
+    }
+
+    .Nav__link:first-child {
+        margin-right: 0;
     }
 }
 

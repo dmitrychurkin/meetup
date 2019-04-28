@@ -1,6 +1,9 @@
 .EventCard {
     width: 269px;
     border: 1px solid #808080;
+    margin-top: 25px;
+    margin-right: 10px;
+    text-decoration: none;
 }
 
 .EventCard__img {

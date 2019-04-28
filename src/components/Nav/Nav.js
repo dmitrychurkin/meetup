@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import classname from 'classnames';
 import { SiteLogo } from 'components';
+import { navLinks } from 'util/data';
 import './Nav.css';
 
 const Nav = ({ links, className }) => (
@@ -24,20 +25,7 @@ const Nav = ({ links, className }) => (
 );
 
 Nav.defaultProps = {
-    links: [
-        {
-            link: 'san-francisco',
-            text: 'San Francisco'
-        },
-        {
-            link: 'san-jose',
-            text: 'San Jose'
-        },
-        {
-            link: 'seattle',
-            text: 'Seattle'
-        }
-    ]
+    links: navLinks
 }
 
 export default Nav;

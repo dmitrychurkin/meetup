@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+.Paginator {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.Paginator__arr, .Paginator__item {
+  width: 35px;
+  height: 35px;
+  border: 1px solid #C2C2C2;
+}
+
+.Paginator__arr.left, .Paginator__arr.right {
+  background: #f2f2f2 url('~assets/arr-l.svg') no-repeat;
+  background-position: center;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.Paginator__items {
+  display: flex;
+}
+
+.Paginator__item {
+  border-left: none;
+  color: #BBBDBF;
+  font-size: 15;
+  line-height: 35px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.Paginator__item:last-child {
+  border-right: none;
+}
+
+.Paginator__arr.right {
+  background-image: url('~assets/arr-r.svg');
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
