@@ -1,3 +1,21 @@
+/* Stub for regional page, because we haven't responsible */
+.Regional__nav.Nav {
+    flex-direction: row;
+    margin-top: 0;
+}
+
+.Regional__nav .Nav__links {
+    flex: .4;
+    flex-direction: row-reverse;
+    margin-right: 66px;
+}
+
+.Regional__nav .Nav__link:first-child {
+    margin-right: 0;
+}
+
+/* end stub */
+
 .Nav {
     display: flex;
     align-items: center;

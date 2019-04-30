@@ -1,5 +1,6 @@
 .Jumbo {
     padding: 0 10px;
+    padding-top: 150px;
     display: flex;
     justify-content: space-around;
     flex-flow: column nowrap;
@@ -14,6 +15,10 @@
 }
 
 @media (min-width: 800px) {
+    .Jumbo {
+        padding-top: 0;
+    }
+
     .Jumbo__sub {
         font-size: 20px;
         margin-top: 40px;

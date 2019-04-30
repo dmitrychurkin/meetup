@@ -1,6 +1,6 @@
 .EventNotFound {
   display: flex;
-  height: calc(100vh - 284px);
+  height: calc(100vh - 304px);
 }
 
 .EventNotFound__mess {
@@ -9,4 +9,5 @@
   font-size: 40px;
   font-weight: 300;
   color: #0A435A;
+  line-height: 0;
 }

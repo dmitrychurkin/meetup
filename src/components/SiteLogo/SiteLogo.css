@@ -1,10 +1,18 @@
+/* Stub for regional page, because we haven't responsible */
+
+.Regional .SiteLogo {
+    display: block;
+}
+
+/* end stub */
+
 .SiteLogo {
     display: none;
+    margin-left: 66px;
 }
 
 @media (min-width: 800px) {
     .SiteLogo {
         display: block;
-        margin-left: 66px;
     }
 }

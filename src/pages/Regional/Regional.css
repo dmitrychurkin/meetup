@@ -1,6 +1,6 @@
 .Regional {
     background: #e6ecee;
-    min-height: calc(100vh - 284px);
+    min-height: calc(100vh - 304px);
     display: block;
     padding: 0;
     min-width: 1331px;
@@ -13,7 +13,7 @@
 }
 
 .Regional__content {
-    min-height: calc(100vh - 284px);
+    min-height: calc(100vh - 304px);
     background: #e6ecee;
     padding: 40px 0;
 }
